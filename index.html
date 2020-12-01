@@ -3,17 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dorthraki Translation</title>
+    <title>Dothraki Translation</title>
     <link href="styles.css" rel="stylesheet" />
   </head>
+
   <body>
-    <textarea
-      id="input-text"
-      placeholder="Please type in a sentence in English to convert it to a Dorthraki Sentence"
-    ></textarea>
-    <button id="btn-translate">Translate to Dorthraki</button>
-    <div>Output will come here 👇</div>
-    <div id="output-text"></div>
+    <audio
+      controls
+      autostart="true"
+      loop="true"
+      width="2"
+      height="0"
+      class="audio"
+    >
+      <source src="got.mp3" type="audio/ogg" />
+    </audio>
+
+    <!-- <embed src="got.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed> -->
+
+    <nav class="nav-bar">
+      <h1>Dothraki Translator - Game of Thrones</h1>
+    </nav>
+
+    <main>
+      <textarea
+        id="input-text"
+        placeholder="Please type in a sentence in English to convert it to a Dorthraki Sentence"
+      ></textarea>
+
+      <button id="btn-translate">Translate to Dorthraki</button>
+
+      <div class="output-message">Communicate to the tribe with this 👇</div>
+      <div id="output-text"></div>
+    </main>
+
+    <footer id="footer">
+      <h1>Dothraki</h1>
+      <p>
+        In George R.R. Martin's famous novel, A Song of Ice and Fire, and HBO's
+        award winning TV Series, The Game of Thrones, Dothraki is a language
+        spoken by the Dothraki community living in the vast central plains of
+        ESSOS. The Dothraki's are known for their bond with the horses. Their
+        bond with their horses is such that it is said that they born, fight and
+        die on the saddle.
+      </p>
+    </footer>
     <script src="apps.js" type="text/javascript"></script>
   </body>
 </html>
