@@ -2,8 +2,8 @@ var btnTranslate = document.querySelector("#btn-translate");
 var inputText = document.querySelector("#input-text");
 var outputText = document.querySelector("#output-text");
 
-// var url = "https://api.funtranslations.com/translate/minion.json";
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var url = "https://api.funtranslations.com/translate/dothraki.json";
+// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function getTranslationURL(input) {
   return url + "?" + "text=" + input;
